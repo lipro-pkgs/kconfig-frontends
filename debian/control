@@ -2,7 +2,7 @@ Source: kconfig-frontends
 Section: devel
 Priority: optional
 Maintainer: Philippe Thierry <phil@reseau-libre.net>
-Build-Depends: debhelper (>= 11), dh-autoreconf
+Build-Depends: debhelper (>= 10), dh-autoreconf
 Standards-Version: 4.1.0
 Homepage: http://ymorin.is-a-geek.org/projects/kconfig-frontends
 Vcs-Git: https://anonscm.debian.org/git/users/pthierry-guest/kconfig-frontends.git
@@ -10,7 +10,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/users/pthierry-guest/kconfig-fronte
 
 Package: kconfig-frontends
 Architecture: linux-any
-Depends: debhelper (>=11), ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Standalone implemenation of the Linux Kconfig parser and frontend
  Kconfig-frontends provides the kconfig parser, as well as all the frontends
  (dialog, ncurses, Qt and Gtk based) to configure and generate config files
