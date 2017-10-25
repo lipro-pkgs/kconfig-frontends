@@ -1,0 +1,5 @@
+kconfig-frontends (4.10.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #xxxxxx).
+
+ -- Philippe Thierry <phil@reseau-libre.net>  Wed, 25 Oct 2017 21:58:12 +0200

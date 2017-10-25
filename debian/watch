@@ -1,0 +1,3 @@
+version=3
+http://ymorin.is-a-geek.org/download/kconfig-frontends/ \
+kconfig-frontends-(\d.*)\.tar\.bz2 debian uupdate
