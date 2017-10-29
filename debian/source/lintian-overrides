@@ -1,0 +1,4 @@
+# kconfig-frontends install one library but is a set of binary tools kconfig-*conf), not a library
+kconfig-frontends: package-name-doesnt-match-sonames libkconfig-parser-4.11.0
+# as it is a small package, we keep the link in the same package, without using -dev
+kconfig-frontends: non-dev-pkg-with-shlib-symlink usr/lib/x86_64-linux-gnu/libkconfig-parser-4.11.0.so usr/lib/x86_64-linux-gnu/libkconfig-parser.so
