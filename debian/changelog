@@ -1,5 +1,5 @@
 kconfig-frontends (4.11.0.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #xxxxxx).
+  * Initial release (Closes: #880132).
 
  -- Philippe Thierry <phil@reseau-libre.net>  Wed, 25 Oct 2017 21:58:12 +0200

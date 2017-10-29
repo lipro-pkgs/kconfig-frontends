@@ -6,4 +6,5 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 	dh $@
 
 override_dh_installdocs:
-	rm -f debian/kconfig-frontends/usr/share/doc/kconfig-frontends/INSTALL.gz
+	dh_installdocs
+	rm -f $(CURDIR)/debian/kconfig-frontends/usr/share/doc/kconfig-frontends/INSTALL.gz
