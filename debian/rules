@@ -5,6 +5,18 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 %:
 	dh $@
 
+override_dh_auto_build:
+	dh_auto_build
+	go-md2man -in debian/kconfig.1.md -out debian/kconfig.1
+	go-md2man -in debian/kconfig-conf.1.md -out debian/kconfig-conf.1
+	go-md2man -in debian/kconfig-diff.1.md -out debian/kconfig-diff.1
+	go-md2man -in debian/kconfig-gconf.1.md -out debian/kconfig-gconf.1
+	go-md2man -in debian/kconfig-gettext.1.md -out debian/kconfig-gettext.1
+	go-md2man -in debian/kconfig-mconf.1.md -out debian/kconfig-mconf.1
+	go-md2man -in debian/kconfig-merge.1.md -out debian/kconfig-merge.1
+	go-md2man -in debian/kconfig-nconf.1.md -out debian/kconfig-nconf.1
+	go-md2man -in debian/kconfig-tweak.1.md -out debian/kconfig-tweak.1
+
 override_dh_installdocs:
 	dh_installdocs
 	rm -f $(CURDIR)/debian/kconfig-frontends/usr/share/doc/kconfig-frontends/INSTALL.gz
