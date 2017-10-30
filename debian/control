@@ -14,6 +14,7 @@ Build-Depends:
  libqt5core5a,
  libqt5gui5,
  pkg-config
+X-Python3-Version: >= 3.2
 Standards-Version: 4.1.1
 Homepage: http://ymorin.is-a-geek.org/projects/kconfig-frontends
 Vcs-Git: https://anonscm.debian.org/git/users/pthierry-guest/kconfig-frontends.git
@@ -25,12 +26,12 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},,
  libncurses5-dev,
+ python3 (>= 3.2),
 Recommends:
  libgtk-3-dev,
  libglade2-dev,
  libqt5core5a,
  libqt5gui5,
- python,
 Description: Standalone implementation of the Linux Kconfig parser and frontend
  Kconfig-frontends provides the kconfig parser, as well as all the frontends
  (dialog, ncurses, Qt and Gtk based) to configure and generate config files
