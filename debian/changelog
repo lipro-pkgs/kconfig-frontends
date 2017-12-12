@@ -1,4 +1,4 @@
-kconfig-frontends (4.11.0.1-1) unstable; urgency=medium
+kconfig-frontends (4.11.0.1+dfsg-1) unstable; urgency=medium
 
   * Initial release (Closes: #880132).
 
