@@ -5,16 +5,65 @@ Files-Excluded: *.autostuff/* aclocal.m4 configure *Makefile.in
 
 Files: *
 Copyright: Yann Morin <yann.morin.1998@free.fr>
-           2002 Roman Zippel <zippel@linux-m68k.org>
-           Nir Tzachar <nir.tzachar@gmail.com?
-           Boris Barbulovski <bbarbulovski@gmail.com>
-License: GPL-2.0
+           2002-2005 Roman Zippel <zippel@linux-m68k.org>
+           2008 Nir Tzachar <nir.tzachar@gmail.com?
+           2015 Boris Barbulovski <bbarbulovski@gmail.com>
+           1984,1989-1991,1994-1996,1999-2015 Free Software Foundation, Inc.
+           2002-2003 Romain Lievin <roms@tilp.info>
+           2002-2005 Sam Ravnborg <sam@ravnborg.org>
+License: GPL (v2.0)
+
+Files: libs/lxdialog/inputbox.c GPL-2+
+       libs/lxdialog/textbox.c GPL-2+
+       libs/lxdialog/checklist.c GPL-2+
+       libs/lxdialog/yesno.c GPL-2+
+Copyright: Savio Lam (lam836@cs.cuhk.hk)
+           William Roadcap (roadcap@cfw.com)
+License: GPL-2+
+
+Files: libs/parser/yconf.c
+Copyright: 1984,1989-1991,1994-1996,1999-2015 Free Software Foundation, Inc.
+License: GPL-3+
 
 Files: debian/*
 Copyright: 2017 philippe Thierry <phil@reseau-libre.net>
 License: GPL-2+
 
-License: GPL-2
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 or greater of the License.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 or greater of the License.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+
+License: GPL (v2.0)
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; version 2.0 of the License.
@@ -29,4 +78,5 @@ License: GPL-2
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
 
