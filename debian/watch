@@ -1,4 +1,4 @@
 version=3
-opts="dversionmangle=s/.dfsg//" \
+opts="dversionmangle=s/.dfsg//,repacksuffix=+dfsg" \
 http://ymorin.is-a-geek.org/download/kconfig-frontends/ \
 kconfig-frontends-(\d.*)\.tar\.bz2 debian uupdate
