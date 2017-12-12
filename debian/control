@@ -25,7 +25,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},,
  libncurses5-dev,
- python,
+ python3,
 Recommends:
  libgtk-3-dev,
  libglade2-dev,
