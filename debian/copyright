@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kconfig-frontends
 Source: http://ymorin.is-a-geek.org/projects/kconfig-frontends
-Files-Excluded: *.autostuff/* aclocal.m4 *Makefile.in
+Files-Excluded: *.autostuff/* aclocal.m4 configure *Makefile.in
 
 Files: *
 Copyright: Yann Morin <yann.morin.1998@free.fr>
