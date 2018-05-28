@@ -25,7 +25,7 @@ Architecture: linux-any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- ${python3:Depends},
+ python3,
  libncurses5-dev,
 Recommends:
  libgtk-3-dev,

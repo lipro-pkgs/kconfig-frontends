@@ -3,7 +3,7 @@ kconfig-frontends (4.11.0.1+dfsg-1) unstable; urgency=medium
   * Updated for dfsg, cleaning autotool related generated files.
   * Initial official package (Closes: #880132).
 
- -- Philippe Thierry <phil@reseau-libre.net>  Tue, 12 Dec 2017 21:14:34 +0200
+ -- Philippe Thierry <phil@reseau-libre.net>  Mon, 28 May 2018 10:12:27 +0200
 
 kconfig-frontends (4.11.0.1-1) unstable; urgency=medium
 
