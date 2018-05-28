@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# test that kconfig-frontend is able to parse Kconfig file properly
+# list its options and generate a random config without error
+
+set -e
+
+WORKDIR=`mktemp -d`
+
+cat> $WORKDIR/Kconfig << EOF
+mainmenu "test"
+
+config TEST1
+  bool "test1 value"
+
+config TEST2
+  int "test2 value"
+
+if TEST1
+
+config TEST3
+  bool "test3 value"
+
+endif
+EOF
+
+cd $WORKDIR;
+
+kconfig-conf --listnewconfig Kconfig >/dev/null 2>&1;
+kconfig-conf --randconfig Kconfig >/dev/null 2>&1;
+
