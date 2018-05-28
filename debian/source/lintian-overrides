@@ -1,4 +1,2 @@
-# kconfig-frontends uses two python scripts as standalone executables, installe in /usr/bin
-kconfig-frontends source: python3-depends-but-no-python3-helper kconfig-frontends
 # upstream website is only http (no https supported)
 kconfig-frontends source: debian-watch-uses-insecure-uri http://ymorin.is-a-geek.org/download/kconfig-frontends/
