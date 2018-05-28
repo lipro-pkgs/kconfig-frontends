@@ -29,3 +29,6 @@ cd $WORKDIR;
 kconfig-conf --listnewconfig Kconfig >/dev/null 2>&1;
 kconfig-conf --randconfig Kconfig >/dev/null 2>&1;
 
+# cleaning
+cd -
+rm -rf $WORKDIR;
