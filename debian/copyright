@@ -11,12 +11,12 @@ Copyright: Yann Morin <yann.morin.1998@free.fr>
            1984,1989-1991,1994-1996,1999-2015 Free Software Foundation, Inc.
            2002-2003 Romain Lievin <roms@tilp.info>
            2002-2005 Sam Ravnborg <sam@ravnborg.org>
-License: GPL (v2.0)
+License: GPL-2.0
 
-Files: libs/lxdialog/inputbox.c GPL-2+
-       libs/lxdialog/textbox.c GPL-2+
-       libs/lxdialog/checklist.c GPL-2+
-       libs/lxdialog/yesno.c GPL-2+
+Files: libs/lxdialog/inputbox.c
+       libs/lxdialog/textbox.c
+       libs/lxdialog/checklist.c
+       libs/lxdialog/yesno.c
 Copyright: Savio Lam (lam836@cs.cuhk.hk)
            William Roadcap (roadcap@cfw.com)
 License: GPL-2+
@@ -63,7 +63,7 @@ License: GPL-2+
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 
-License: GPL (v2.0)
+License: GPL-2.0
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; version 2.0 of the License.

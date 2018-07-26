@@ -1,0 +1,2 @@
+# upstream website is only http (no https supported)
+kconfig-frontends source: debian-watch-uses-insecure-uri http://ymorin.is-a-geek.org/download/kconfig-frontends/
