@@ -11,8 +11,7 @@ Build-Depends:
  libncurses5-dev,
  libgtk-3-dev,
  libglade2-dev,
- libqt5core5a,
- libqt5gui5,
+ qtbase5-dev,
  pkg-config
 Standards-Version: 4.1.5
 X-Python3-Version: >= 3.5
@@ -30,8 +29,7 @@ Depends:
 Recommends:
  libgtk-3-dev,
  libglade2-dev,
- libqt5core5a,
- libqt5gui5,
+ qtbase5-dev,
 Description: Standalone implementation of the Linux Kconfig parser and frontend
  Kconfig-frontends provides the kconfig parser, as well as all the frontends
  (dialog, ncurses, Qt and Gtk based) to configure and generate config files
