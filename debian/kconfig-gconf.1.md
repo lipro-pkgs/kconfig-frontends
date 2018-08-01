@@ -18,6 +18,7 @@ At configuration time:
  - kconfig-mconf is based on ncurses (menuconfig)
  - kconfig-conf is based on dialog (config)
  - kconfig-gconf is based on GTK+ (gconfig)
+ - kconfig-qconf is based on QT (qconfig)
 
 Associated tools:
 

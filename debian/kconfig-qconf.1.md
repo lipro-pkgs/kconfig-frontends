@@ -1,11 +1,11 @@
-% KCONFIG-CONF(1) kconfig-conf Man Page
+% KCONFIG-QCONF(1) kconfig-Qconf Man Page
 % Philippe Thierry
 % October 2017
 # NAME
-kconfig-conf - Standalone implementation of the Linux Kconfig parser
+kconfig-qconf - Standalone implementation of the Linux Kconfig parser
 
 # SYNOPSIS
-**kconfig-conf [options] <KConfig_file>**
+**kconfig-qconf [options] <KConfig_file>**
 
 # DESCRIPTION
 

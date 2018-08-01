@@ -2,6 +2,7 @@ debian/kconfig.1
 debian/kconfig-conf.1
 debian/kconfig-diff.1
 debian/kconfig-gconf.1
+debian/kconfig-qconf.1
 debian/kconfig-gettext.1
 debian/kconfig-mconf.1
 debian/kconfig-merge.1

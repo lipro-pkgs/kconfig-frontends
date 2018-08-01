@@ -11,6 +11,7 @@ override_dh_auto_build:
 	go-md2man -in debian/kconfig-conf.1.md -out debian/kconfig-conf.1
 	go-md2man -in debian/kconfig-diff.1.md -out debian/kconfig-diff.1
 	go-md2man -in debian/kconfig-gconf.1.md -out debian/kconfig-gconf.1
+	go-md2man -in debian/kconfig-qconf.1.md -out debian/kconfig-qconf.1
 	go-md2man -in debian/kconfig-gettext.1.md -out debian/kconfig-gettext.1
 	go-md2man -in debian/kconfig-mconf.1.md -out debian/kconfig-mconf.1
 	go-md2man -in debian/kconfig-merge.1.md -out debian/kconfig-merge.1
