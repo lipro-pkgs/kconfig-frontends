@@ -1,7 +1,7 @@
 Source: kconfig-frontends
 Section: devel
 Priority: optional
-Maintainer: Philippe Thierry <phil@reseau-libre.net>
+Maintainer: Philippe Thierry <philou@debian.org>
 Build-Depends:
  debhelper (>= 10),
  go-md2man,

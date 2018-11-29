@@ -1,3 +1,10 @@
+kconfig-frontends (4.11.0.1+dfsg-2) unstable; urgency=medium
+
+  * Updated lintian override for non-dev-pkg-with-shlib-symlink
+  * Updated maintainer field with debian email
+
+ -- Philippe Thierry <philou@debian.org>  Thu, 29 Nov 2018 11:53:02 +0100
+
 kconfig-frontends (4.11.0.1+dfsg-1) unstable; urgency=medium
 
   * Initial release (Closes: #880132).
