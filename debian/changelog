@@ -1,6 +1,7 @@
 kconfig-frontends (4.11.0.1+dfsg-2cpm4l1) UNRELEASED; urgency=low
 
   * UNRELEASED
+  * debian/control: Updated maintainer fields for CPM4L's github place.
 
  --
 
