@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all,-pie
 
 %:
-	dh $@
+	dh $@ --with autoreconf
 
 gen_manpages:
 	go-md2man -in debian/kconfig.1.md -out debian/kconfig.1

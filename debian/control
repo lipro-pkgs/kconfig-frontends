@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Stephan Linz <linz@li-pro.net>
 Build-Depends:
- debhelper (>= 10),
+ debhelper (>= 9), dh-autoreconf (>= 9),
  flex,
  bison,
  gperf,
@@ -12,7 +12,7 @@ Build-Depends:
  libglade2-dev,
  qtbase5-dev,
  pkg-config
-Standards-Version: 4.2.1
+Standards-Version: 3.9.8
 X-Python3-Version: >= 3.5
 Homepage: https://salsa.debian.org/philou/kconfig-frontends
 Vcs-Git: https://github.com/lipro-pkgs/kconfig-frontends.git

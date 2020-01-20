@@ -1,1 +1,2 @@
 include-removal
+compression = bzip2
