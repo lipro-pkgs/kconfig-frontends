@@ -4,6 +4,7 @@ kconfig-frontends (4.11.0.1+dfsg-2cpm4l1) UNRELEASED; urgency=low
   * debian/control: Updated maintainer fields for CPM4L's github place.
   * debian/control: Updated vcs fields for CPM4L's github place.
   * debian/{control,rules}: Downgrade to support oldstable systems.
+  * debian/TODO.Debian: Notice to update the man page management.
 
  --
 

@@ -1,0 +1,29 @@
+To Do list for Debian packaging
+###############################
+
+:Author: Stephan Linz <linz@li-pro.net>
+:Last-Updated: 2020-01-20
+
+To Do
+=====
+
+* Updated man page management, go-md2man is executed manually to support
+  some foreign architecture builders
+
+Done
+====
+
+Nothing (not yet).
+
+
+..
+    Local variables:
+    coding: utf-8
+    mode: text
+    mode: rst
+    time-stamp-format: "%:y-%02m-%02d"
+    time-stamp-start: "^:Last-Updated:[ 	]+"
+    time-stamp-end: "$"
+    time-stamp-line-limit: 20
+    End:
+    vim: fileencoding=utf-8 filetype=rst :
